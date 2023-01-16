@@ -1,0 +1,9 @@
+toc: true
+# TODO: Tweak ToC depth
+toc-depth: 4
+number-sections: false
+reference-location: margin
+date-format: "dddd, DD MMMM YYYY"
+reading-time: true
+website:
+  reader-mode: true

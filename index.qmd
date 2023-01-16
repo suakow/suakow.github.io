@@ -1,0 +1,30 @@
+---
+title: "Puri Phakmongkol"
+about:
+  id: about-puri
+  template: jolla
+  image: images/profile.jpg
+  image-shape: round
+  links:
+      # Variables don't work here.
+    - icon: facebook
+      text: puri.in.th
+      href: https://fb.com/purixinth
+    - icon: twitter
+      text: "@puriphk"
+      href: https://twitter.com/puriphk
+    - icon: instagram
+      text: "@puriphk"
+      href: https://instagram.com/puriphk
+    - icon: github
+      text: GitHub
+      href: https://github.com/suakow
+    - icon: clipboard-data
+      text: Kaggle
+      href: https://www.kaggle.com/suakao
+    - icon: envelope
+      text: Email
+      href: mailto:me@puri.in.th
+---
+
+This is my new website. I have to finish this before travelling abroad !

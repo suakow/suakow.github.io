@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Puri Phakmongkol",
+    "section": "",
+    "text": "This is my new website. I have to finish this before travelling abroad !"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Puri Phakmongkol",
+    "section": "",
+    "text": "Greetings !,"
+  },
+  {
+    "objectID": "about.html#lived-in",
+    "href": "about.html#lived-in",
+    "title": "Puri Phakmongkol",
+    "section": "Lived in",
+    "text": "Lived in\nUnited Kingdom (5 years) | Saudi Arabia (6 years) | Pakistan (9 years)"
+  },
+  {
+    "objectID": "about.html#been-to",
+    "href": "about.html#been-to",
+    "title": "Puri Phakmongkol",
+    "section": "Been to",
+    "text": "Been to\n\n\nEgypt* | England | France | Greece | Italy | Jordan* | Lebanon* | Malaysia | Pakistan | Qatar* | Saudi Arabia | Sri Lanka | Switzerland | Tanzania | Thailand | Turkey | UAE | Wales\n*Transit destinations; I count them still because I was technically within the country’s border."
+  },
+  {
+    "objectID": "pages/about.html",
+    "href": "pages/about.html",
+    "title": "Puri Phakmongkol",
+    "section": "",
+    "text": "Greetings !,"
+  },
+  {
+    "objectID": "pages/about.html#lived-in",
+    "href": "pages/about.html#lived-in",
+    "title": "Puri Phakmongkol",
+    "section": "Lived in",
+    "text": "Lived in\nUnited Kingdom (5 years) | Saudi Arabia (6 years) | Pakistan (9 years)"
+  },
+  {
+    "objectID": "pages/about.html#been-to",
+    "href": "pages/about.html#been-to",
+    "title": "Puri Phakmongkol",
+    "section": "Been to",
+    "text": "Been to\n\n\nEgypt* | England | France | Greece | Italy | Jordan* | Lebanon* | Malaysia | Pakistan | Qatar* | Saudi Arabia | Sri Lanka | Switzerland | Tanzania | Thailand | Turkey | UAE | Wales\n*Transit destinations; I count them still because I was technically within the country’s border."
+  },
+  {
+    "objectID": "pages/test.html",
+    "href": "pages/test.html",
+    "title": "Test Page",
+    "section": "",
+    "text": "This is a test page."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "✏️ Welcome to Puri’s Blog",
+    "section": "",
+    "text": "No matching items\n\n\nHere you can experience my various ventures into learning, as well as read about other various useful tid-bits."
+  },
+  {
+    "objectID": "blog/entries/1-test-entry.html",
+    "href": "blog/entries/1-test-entry.html",
+    "title": "How to Approach Creating AI Models",
+    "section": "",
+    "text": "This article was rewritten on Monday, 31 October 2022."
+  },
+  {
+    "objectID": "blog/entries/1-test-entry.html#introduction",
+    "href": "blog/entries/1-test-entry.html#introduction",
+    "title": "How to Approach Creating AI Models",
+    "section": "Introduction",
+    "text": "Introduction\nHow you approach making models is crucial. The way AI methods are used in today’s landscape is very different. AI methods are created to solve small, atomic problems. And we’ve got most of the methods to handle these small tasks hammered down. Therefore, applied AI is not about creating models; it’s only a small part of it. It’s 80% problem solving and 20% implementing (I would not be surprised if it actually followed the 80-20 rule[^1]).\nThink of AI methods as a tool; think of it as a pencil. You can use pencils to draw, take notes, poke holes, and much more. There are also dozens of pencils out there. But what point is there in using any of those pencils if you don’t even know how to properly use a pencil in the first place? The art of creating pencils has already been perfected too.\nOne highly successful approach is the Drivetrain Approach, created by Jeremy Howard — who’s widely known for his fastai course and library —, Margit Zwemer, and Mike Loukides.\nThe goal of the Drivetrain Approach is to not just use data to generate more data — data that is in the form of predictions. But rather to use data to also generate actionable outcomes.\nThe official blogpost goes into much more depth here.\nIn this post, I’ll be providing a short overview of my understanding of this approach by applying it to the Elements of AI course’s final project (this online course was created by the University of Helsinki and Reaktor)."
+  },
+  {
+    "objectID": "blog/entries/2-test-entry-2/index.html",
+    "href": "blog/entries/2-test-entry-2/index.html",
+    "title": "A No Nonsense Guide to Reading a Confusion Matrix",
+    "section": "",
+    "text": "This article was updated on Thursday, 10 November 2022.\nConfusion matrices help model designers view what mistakes a model has made.\nIn this post, I’ll be telling you how to easily read such matrices.\nJump to ?@sec-case2 for an ultra concise rundown.\nReady? Here we go."
+  },
+  {
+    "objectID": "blog/entries/2-test-entry-2/index.html#case-1-introduction",
+    "href": "blog/entries/2-test-entry-2/index.html#case-1-introduction",
+    "title": "A No Nonsense Guide to Reading a Confusion Matrix",
+    "section": "Case 1: Introduction",
+    "text": "Case 1: Introduction\nIgnore the “Actual” and “Predicted” labels for now.\nLet’s compare grizzly bears to black bears.\nAll comparisons begin at the bottom, with the columns.\nFirst, highlight the grizzly bear column.\nNext, highlight the black bear row.\nNow find the common entry in the highlighted column and row.\nThis common entry is our required information.\nAll entries in the diagonal going from the top left to the bottom right (blue) are correct classifications. All other entries are incorrect classifications.\nOur common entry does not lie in the main diagonal. Therefore, we are looking at incorrect classifications.\nWe have compared grizzly bears to black bears. Therefore, from this deduction, three grizzly bears have been incorrectly classified as black bears.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nView this post on Instagram\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA post shared by puri.in.th (@puriphk)\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nThere is a difference between comparing grizzly bears to black bears and black bears to grizzly bears.\nComparing grizzly bears to black bears means, “How many grizzly bears were misclassified as black bears?”\nComparing black bears to grizzly bears means, “How many black bears were misclassified as grizzly bears?”"
+  },
+  {
+    "objectID": "blog/entries/2-test-entry-2/index.html#note",
+    "href": "blog/entries/2-test-entry-2/index.html#note",
+    "title": "A No Nonsense Guide to Reading a Confusion Matrix",
+    "section": "Note",
+    "text": "Note\nThere is a difference between comparing grizzly bears to black bears and black bears to grizzly bears.\nComparing grizzly bears to black bears means, “How many grizzly bears were misclassified as black bears?”\nComparing black bears to grizzly bears means, “How many black bears were misclassified as grizzly bears?” :::"
+  },
+  {
+    "objectID": "blog/entries/note/1-test-entry.html",
+    "href": "blog/entries/note/1-test-entry.html",
+    "title": "How to Approach Creating AI Models",
+    "section": "",
+    "text": "This article was rewritten on Monday, 31 October 2022."
+  },
+  {
+    "objectID": "blog/entries/note/1-test-entry.html#introduction",
+    "href": "blog/entries/note/1-test-entry.html#introduction",
+    "title": "How to Approach Creating AI Models",
+    "section": "Introduction",
+    "text": "Introduction\nHow you approach making models is crucial. The way AI methods are used in today’s landscape is very different. AI methods are created to solve small, atomic problems. And we’ve got most of the methods to handle these small tasks hammered down. Therefore, applied AI is not about creating models; it’s only a small part of it. It’s 80% problem solving and 20% implementing (I would not be surprised if it actually followed the 80-20 rule[^1]).\nThink of AI methods as a tool; think of it as a pencil. You can use pencils to draw, take notes, poke holes, and much more. There are also dozens of pencils out there. But what point is there in using any of those pencils if you don’t even know how to properly use a pencil in the first place? The art of creating pencils has already been perfected too.\nOne highly successful approach is the Drivetrain Approach, created by Jeremy Howard — who’s widely known for his fastai course and library —, Margit Zwemer, and Mike Loukides.\nThe goal of the Drivetrain Approach is to not just use data to generate more data — data that is in the form of predictions. But rather to use data to also generate actionable outcomes.\nThe official blogpost goes into much more depth here.\nIn this post, I’ll be providing a short overview of my understanding of this approach by applying it to the Elements of AI course’s final project (this online course was created by the University of Helsinki and Reaktor)."
+  },
+  {
+    "objectID": "blog/entries/note/2-test-entry-2/index.html",
+    "href": "blog/entries/note/2-test-entry-2/index.html",
+    "title": "A No Nonsense Guide to Reading a Confusion Matrix",
+    "section": "",
+    "text": "This article was updated on Thursday, 10 November 2022.\nConfusion matrices help model designers view what mistakes a model has made.\nIn this post, I’ll be telling you how to easily read such matrices.\nJump to ?@sec-case2 for an ultra concise rundown.\nReady? Here we go."
+  },
+  {
+    "objectID": "blog/entries/note/2-test-entry-2/index.html#case-1-introduction",
+    "href": "blog/entries/note/2-test-entry-2/index.html#case-1-introduction",
+    "title": "A No Nonsense Guide to Reading a Confusion Matrix",
+    "section": "Case 1: Introduction",
+    "text": "Case 1: Introduction\nIgnore the “Actual” and “Predicted” labels for now.\nLet’s compare grizzly bears to black bears.\nAll comparisons begin at the bottom, with the columns.\nFirst, highlight the grizzly bear column.\nNext, highlight the black bear row.\nNow find the common entry in the highlighted column and row.\nThis common entry is our required information.\nAll entries in the diagonal going from the top left to the bottom right (blue) are correct classifications. All other entries are incorrect classifications.\nOur common entry does not lie in the main diagonal. Therefore, we are looking at incorrect classifications.\nWe have compared grizzly bears to black bears. Therefore, from this deduction, three grizzly bears have been incorrectly classified as black bears.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nView this post on Instagram\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA post shared by puri.in.th (@puriphk)\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nThere is a difference between comparing grizzly bears to black bears and black bears to grizzly bears.\nComparing grizzly bears to black bears means, “How many grizzly bears were misclassified as black bears?”\nComparing black bears to grizzly bears means, “How many black bears were misclassified as grizzly bears?”"
+  },
+  {
+    "objectID": "gallery/index.html",
+    "href": "gallery/index.html",
+    "title": "📸 Welcome to Puri’s Photo Gallery",
+    "section": "",
+    "text": "No matching items"
+  }
+]

@@ -1,0 +1,31 @@
+project:
+  type: website
+  preview:
+    port: 3833
+
+website:
+  title: "Puri Phakmongkol"
+  site-url: https://suakow.github.io/
+  description: "Puri's Personal Website"
+  favicon: images/profile.jpg
+  navbar:
+    left:
+      - href: index.qmd
+        text: 🏠 Home
+      - href: blog/index.qmd
+        text: ✏️ Blog
+      - href: gallery/index.qmd
+        text: 📸 Photo Gallery
+      - href: pages/about.qmd
+        text: 👨‍💻 About
+      
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+    
+execute:
+  freeze: auto

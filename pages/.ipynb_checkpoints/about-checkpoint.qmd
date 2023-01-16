@@ -1,0 +1,96 @@
+---
+title: "Puri Phakmongkol"
+about:
+  id: about-puri
+  template: trestles
+  image: ../images/profile.jpg
+  image-shape: round
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:me@puri.in.th
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/puriphk
+    - icon: github
+      text: GitHub
+      href: https://github.com/suakow
+    - icon: clipboard-data
+      text: Kaggle
+      href: https://www.kaggle.com/suakao
+      
+comments: false
+page-layout: full
+---
+
+_Greetings !,_
+
+:::{.panel-tabset}
+
+# Notable Experience
+
+**1000+ AI Community Administrator** | Makerspace: Data Tools | Discord
+
+**Physics Teaching Assistant** | Beaconhouse College Program Potohar Campus | September 2020 — May 2021 | Islamabad, Pakistan
+
+**Mathematics Teaching Assistant** | Beaconhouse College Program Potohar Campus | September 2020 — May 2021 | Islamabad, Pakistan
+
+**Concert Marketing — Raised \$8,400** | Beaconhouse College Program Potohar Campus | January 2020 | Islamabad, Pakistan
+
+**Bronze Medal — Honorable Distinction Award** | 15th International Kangaroo Linguistic Contest 2018 | Islamabad, Pakistan
+
+# Skills
+
+**Programming** | Tool of choice: Python
+
+**3D Computer Graphics** | Tool of choice: Blender
+
+**Teaching** | Can teach in a logical manner that fosters understanding and the solidification of concepts.
+
+**English** | Can use the language to a very high degree of complexity. I have better proficiency than most native speakers.
+
+# Current Status
+
+**1000+ AI Community Administrator** | Makerspace: Data Tools | Discord
+
+Gap Year
+
+:::
+
+:::{.panel-tabset}
+
+# Education
+
+**8.5/9.0** | **IELTS**
+
+**2 A\*s, 1 A, 1 B** | **High School** | CAIE A Level (Cambridge Assessment International Examinations Advanced Level) | September 2019 — August 2021
+
+**3 A\*s, 4 As, 1 B** | **Middle School** | CAIE IGCSE (Cambridge Assessment International Examinations International General Certificate of Secondary
+Education) | August 2015 — August 2019
+
+**International Baccaleureate Primary Years Program** | Primary School | August 2009 – June 2015
+
+# Countries
+
+## Lived in
+
+**United Kingdom** (5 years) | **Saudi Arabia** (6 years) | **Pakistan** (9 years)
+
+## Been to
+
+<!-- TODO: Use footnotes instead of asterisks. -->
+<!-- Need to figure out how to make all footnotes reference the same footnote -->
+
+**Egypt*** | **England** | **France** | **Greece** | **Italy** | **Jordan*** | **Lebanon*** | **Malaysia** | **Pakistan** | **Qatar*** | **Saudi Arabia** | **Sri Lanka** | **Switzerland** | **Tanzania** | **Thailand** | **Turkey** | **UAE** | **Wales**
+
+<span style="font-size:8px">*Transit destinations; I count them still because I was technically within the country's border.</span>
+
+# Known Languages
+
+**English** | Better than most native speakers.
+
+**Urdu** | Good speaking and listening competency. Fair writing and reading competency.
+
+**Japanese** | Currently learning.
+
+:::

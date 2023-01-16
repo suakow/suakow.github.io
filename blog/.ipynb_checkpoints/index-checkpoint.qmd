@@ -1,0 +1,29 @@
+---
+title: ✏️ Welcome to Puri's Blog
+comments: false
+listing:
+  - id: entries
+    contents: entries
+    sort: 
+      - "date desc"
+      - "title asc"
+    
+    categories: true
+    # sort-ui: [date, author]
+    filter-ui: [title, date, author]
+    feed: true
+    type: default
+    page-size: 5
+    image-align: left
+    date-format: "DD MMMM YYYY"
+    fields: [title, subtitle, author, description, date, image, reading-time]
+
+format:
+  html:
+    page-layout: full
+---
+
+:::{#entries}
+:::
+
+Here you can experience my various ventures into learning, as well as read about other various useful tid-bits.

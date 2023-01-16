@@ -1,0 +1,26 @@
+---
+title: 📸 Welcome to Puri's Photo Gallery
+comments: false
+listing:
+  - id: entries
+    contents: entries
+    sort: 
+      - "date desc"
+      - "title asc"
+    
+    categories: true
+    filter-ui: [title, date, author]
+    feed: true
+    type: default
+    page-size: 5
+    image-align: left
+    date-format: "DD MMMM YYYY"
+    fields: [title, subtitle, author, description, date, image, reading-time]
+
+format:
+  html:
+    page-layout: full
+---
+
+:::{#entries}
+:::
