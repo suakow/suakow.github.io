@@ -26,4 +26,4 @@ about:
       href: mailto:me@puri.in.th
 ---
 
-This is my new website. I have to finish this before travelling abroad !
+This is my new website. I have to finish this before travelling abroad !!
