@@ -6,10 +6,10 @@
       version="2.0">
 <channel>
 <title>Puri Phakmongkol</title>
-<link>https://suakow.github.io/gallery/index.html</link>
-<atom:link href="https://suakow.github.io/gallery/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://suakow.github.io/blog/index.html</link>
+<atom:link href="https://suakow.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Puri&#39;s Personal Website</description>
 <generator>quarto-1.2.313</generator>
-<lastBuildDate>Mon, 16 Jan 2023 13:51:55 GMT</lastBuildDate>
+<lastBuildDate>Mon, 16 Jan 2023 13:51:54 GMT</lastBuildDate>
 </channel>
 </rss>
