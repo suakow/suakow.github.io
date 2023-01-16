@@ -6,7 +6,6 @@ about:
   image: images/profile.jpg
   image-shape: round
   links:
-      # Variables don't work here.
     - icon: facebook
       text: puri.in.th
       href: https://fb.com/purixinth
