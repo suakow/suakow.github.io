@@ -5,7 +5,7 @@ project:
 
 website:
   title: "Puri Phakmongkol"
-  site-url: https://suakow.github.io/
+  site-url: https://www.puri.in.th/
   description: "Puri's Personal Website"
   favicon: images/profile.jpg
   navbar:
