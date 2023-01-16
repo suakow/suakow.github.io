@@ -7,18 +7,18 @@
     "text": "No matching items\n\n\nHere you can experience my various ventures into learning, as well as read about other various useful tid-bits."
   },
   {
+    "objectID": "gallery/index.html",
+    "href": "gallery/index.html",
+    "title": "📸 Welcome to Puri’s Photo Gallery",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Puri Phakmongkol",
     "section": "",
     "text": "This is my new website. I have to finish this before travelling abroad !!"
-  },
-  {
-    "objectID": "pages/test.html",
-    "href": "pages/test.html",
-    "title": "Test Page",
-    "section": "",
-    "text": "This is a test page."
   },
   {
     "objectID": "pages/about.html",
@@ -42,10 +42,10 @@
     "text": "Been to\n\n\nEgypt* | England | France | Greece | Italy | Jordan* | Lebanon* | Malaysia | Pakistan | Qatar* | Saudi Arabia | Sri Lanka | Switzerland | Tanzania | Thailand | Turkey | UAE | Wales\n*Transit destinations; I count them still because I was technically within the country’s border."
   },
   {
-    "objectID": "gallery/index.html",
-    "href": "gallery/index.html",
-    "title": "📸 Welcome to Puri’s Photo Gallery",
+    "objectID": "pages/test.html",
+    "href": "pages/test.html",
+    "title": "Test Page",
     "section": "",
-    "text": "No matching items"
+    "text": "This is a test page."
   }
 ]
