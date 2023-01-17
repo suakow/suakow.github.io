@@ -26,6 +26,8 @@ about:
       href: mailto:me@puri.in.th
 ---
 
+**Work in progress**
+
 This is my new website. I have to finish this before travelling abroad !!
 
-For further information about me, please visit (👨‍💻 About Me)[pages/about.qmd].
+For further information about me, please visit [👨‍💻 About Me](pages/about.qmd).

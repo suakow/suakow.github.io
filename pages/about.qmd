@@ -6,22 +6,30 @@ about:
   image: ../images/profile.jpg
   image-shape: round
   links:
-    - icon: envelope
-      text: Email
-      href: mailto:me@puri.in.th
+    - icon: facebook
+      text: puri.in.th
+      href: https://fb.com/purixinth
     - icon: twitter
-      text: Twitter
+      text: "@puriphk"
       href: https://twitter.com/puriphk
+    - icon: instagram
+      text: "@puriphk"
+      href: https://instagram.com/puriphk
     - icon: github
       text: GitHub
       href: https://github.com/suakow
     - icon: clipboard-data
       text: Kaggle
       href: https://www.kaggle.com/suakao
+    - icon: envelope
+      text: Email
+      href: mailto:me@puri.in.th
       
 comments: false
 page-layout: full
 ---
+
+**Work in progress**
 
 _Greetings !,_
 
