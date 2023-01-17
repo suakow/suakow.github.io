@@ -17,7 +17,7 @@ website:
       - href: gallery/index.qmd
         text: 📸 Photo Gallery
       - href: pages/about.qmd
-        text: 👨‍💻 About
+        text: 👨‍💻 About Me
       
 format:
   html:
