@@ -1,5 +1,5 @@
 ---
-title: "Puri Phakmongkol"
+title: "puri.in.th"
 about:
   id: about-puri
   template: trestles
