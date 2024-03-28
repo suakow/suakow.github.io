@@ -47,5 +47,12 @@
     "title": "Test Page",
     "section": "",
     "text": "This is a test page."
+  },
+  {
+    "objectID": "pages/test_2.html",
+    "href": "pages/test_2.html",
+    "title": "Test Page 2",
+    "section": "",
+    "text": "This is a test page 2."
   }
 ]

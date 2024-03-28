@@ -2,22 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.puri.in.th/blog/index.html</loc>
-    <lastmod>2023-04-07T12:08:39.943Z</lastmod>
+    <lastmod>2024-03-28T03:18:33.414Z</lastmod>
   </url>
   <url>
     <loc>https://www.puri.in.th/gallery/index.html</loc>
-    <lastmod>2023-04-07T12:08:40.863Z</lastmod>
+    <lastmod>2024-03-28T03:18:33.802Z</lastmod>
   </url>
   <url>
     <loc>https://www.puri.in.th/index.html</loc>
-    <lastmod>2023-04-07T12:08:41.355Z</lastmod>
+    <lastmod>2024-03-28T03:18:34.182Z</lastmod>
   </url>
   <url>
     <loc>https://www.puri.in.th/pages/about.html</loc>
-    <lastmod>2023-04-07T12:08:41.971Z</lastmod>
+    <lastmod>2024-03-28T03:18:34.610Z</lastmod>
   </url>
   <url>
     <loc>https://www.puri.in.th/pages/test.html</loc>
-    <lastmod>2023-04-07T12:08:42.455Z</lastmod>
+    <lastmod>2024-03-28T03:18:34.986Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.puri.in.th/pages/test_2.html</loc>
+    <lastmod>2024-03-28T03:18:35.338Z</lastmod>
   </url>
 </urlset>
