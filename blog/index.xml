@@ -10,32 +10,6 @@
 <atom:link href="https://www.puri.in.th/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Puri&#39;s Personal Website</description>
 <generator>quarto-1.2.313</generator>
-<lastBuildDate>Fri, 27 May 2022 00:00:00 GMT</lastBuildDate>
-<item>
-  <title>How to Approach Creating AI Models</title>
-  <dc:creator>Salman Naqvi</dc:creator>
-  <link>https://www.puri.in.th/blog/entries/1-test-entry.html</link>
-  <description><![CDATA[ 
-
-
-
-<p><em>This article was rewritten on <strong>Monday, 31 October 2022</strong>.</em></p>
-<section id="introduction" class="level2">
-<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>How you approach making models is crucial. The way AI methods are used in today’s landscape is very different. AI methods are created to solve small, atomic problems. And we’ve got most of the methods to handle these small tasks hammered down. Therefore, applied AI is not about creating models; it’s only a small part of it. It’s 80% problem solving and 20% implementing (I would not be surprised if it actually followed the 80-20 rule[^1]).</p>
-<p>Think of AI methods as a tool; think of it as a pencil. You can use pencils to draw, take notes, poke holes, and much more. There are also dozens of pencils out there. But what point is there in using any of those pencils if you don’t even know how to properly use a pencil in the first place? The art of creating pencils has already been perfected too.</p>
-<p>One highly successful approach is the <em>Drivetrain Approach</em>, created by Jeremy Howard — who’s widely known for his fastai course and library —, Margit Zwemer, and Mike Loukides.</p>
-<p>The goal of the <em>Drivetrain Approach</em> is to not just use data to generate more data — data that is in the form of predictions. But rather to use data to also generate actionable outcomes.</p>
-<p>The official blogpost goes into much more depth <a href="https://www.oreilly.com/radar/drivetrain-approach-data-products/">here</a>.</p>
-<p>In this post, I’ll be providing a short overview of my understanding of this approach by applying it to the <a href="https://www.elementsofai.com">Elements of AI</a> course’s final project (this online course was created by the University of Helsinki and Reaktor).</p>
-
-
-</section>
-
- ]]></description>
-  <category>Approaching AI</category>
-  <guid>https://www.puri.in.th/blog/entries/1-test-entry.html</guid>
-  <pubDate>Fri, 27 May 2022 00:00:00 GMT</pubDate>
-</item>
+<lastBuildDate>Thu, 28 Mar 2024 03:32:11 GMT</lastBuildDate>
 </channel>
 </rss>
