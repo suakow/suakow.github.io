@@ -1,10 +1,24 @@
 [
   {
+    "objectID": "blog/entries/1-test-entry.html",
+    "href": "blog/entries/1-test-entry.html",
+    "title": "How to Approach Creating AI Models",
+    "section": "",
+    "text": "This article was rewritten on Monday, 31 October 2022."
+  },
+  {
+    "objectID": "blog/entries/1-test-entry.html#introduction",
+    "href": "blog/entries/1-test-entry.html#introduction",
+    "title": "How to Approach Creating AI Models",
+    "section": "Introduction",
+    "text": "Introduction\nHow you approach making models is crucial. The way AI methods are used in today’s landscape is very different. AI methods are created to solve small, atomic problems. And we’ve got most of the methods to handle these small tasks hammered down. Therefore, applied AI is not about creating models; it’s only a small part of it. It’s 80% problem solving and 20% implementing (I would not be surprised if it actually followed the 80-20 rule[^1]).\nThink of AI methods as a tool; think of it as a pencil. You can use pencils to draw, take notes, poke holes, and much more. There are also dozens of pencils out there. But what point is there in using any of those pencils if you don’t even know how to properly use a pencil in the first place? The art of creating pencils has already been perfected too.\nOne highly successful approach is the Drivetrain Approach, created by Jeremy Howard — who’s widely known for his fastai course and library —, Margit Zwemer, and Mike Loukides.\nThe goal of the Drivetrain Approach is to not just use data to generate more data — data that is in the form of predictions. But rather to use data to also generate actionable outcomes.\nThe official blogpost goes into much more depth here.\nIn this post, I’ll be providing a short overview of my understanding of this approach by applying it to the Elements of AI course’s final project (this online course was created by the University of Helsinki and Reaktor)."
+  },
+  {
     "objectID": "blog/index.html",
     "href": "blog/index.html",
     "title": "✏️ Welcome to Puri’s Blog",
     "section": "",
-    "text": "No matching items\n\n\nHere you can experience my various ventures into learning, as well as read about other various useful tid-bits."
+    "text": "How to Approach Creating AI Models\n\n\nPutting the Drive into the Train\n\n\nThere’s more to AI than just creating models.\n\n\n\n\n\n\n27 May 2022\n\n\nSalman Naqvi\n\n\n1 min\n\n\n\n\n\n\nNo matching items\n\n\nHere you can experience my various ventures into learning, as well as read about other various useful tid-bits."
   },
   {
     "objectID": "gallery/index.html",

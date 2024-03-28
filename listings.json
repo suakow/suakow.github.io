@@ -1,7 +1,9 @@
 [
   {
     "listing": "/blog/index.html",
-    "items": []
+    "items": [
+      "/blog/entries/1-test-entry.html"
+    ]
   },
   {
     "listing": "/gallery/index.html",
