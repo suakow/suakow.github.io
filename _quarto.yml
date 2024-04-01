@@ -4,7 +4,7 @@ project:
     port: 3833
 
 website:
-  title: "Puri Phakmongkol"
+  title: "puri.in.th"
   site-url: https://www.puri.in.th/
   description: "Puri's Personal Website"
   favicon: images/profile.jpg

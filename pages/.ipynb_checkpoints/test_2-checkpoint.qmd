@@ -1,0 +1,7 @@
+---
+title: "Test Page 2"
+comments: false
+page-layout: full
+---
+
+This is a test page 2.
