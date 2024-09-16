@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.puri.in.th/blog/nrc-houd-toezicht-algoritmes.html</loc>
+    <lastmod>2024-09-16T11:27:14.956Z</lastmod>
+  </url>
+  <url>
     <loc>https://www.puri.in.th/about.html</loc>
     <lastmod>2024-09-16T07:44:53.244Z</lastmod>
   </url>
   <url>
+    <loc>https://www.puri.in.th/projects/amphia.html</loc>
+    <lastmod>2024-09-16T11:24:54.211Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.puri.in.th/projects/index.html</loc>
+    <lastmod>2024-09-16T11:24:13.309Z</lastmod>
+  </url>
+  <url>
     <loc>https://www.puri.in.th/index.html</loc>
     <lastmod>2024-09-16T11:04:08.742Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.puri.in.th/blog/index.html</loc>
+    <lastmod>2024-09-16T11:26:15.904Z</lastmod>
   </url>
 </urlset>

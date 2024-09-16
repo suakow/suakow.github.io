@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Puri Phakmongkol</title>
+<title>Blog posts – Puri Phakmongkol</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -65,12 +67,70 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="styles.css">
-</head>
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
 
-<body class="nav-sidebar docked fullcontent">
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+<link rel="alternate" type="application/rss+xml" title="Puri Phakmongkol" href="index.xml" data-external="1"></head>
+
+<body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -79,9 +139,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
-      Puri Phakmongkol
-      </li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../blog/index.html">Blog</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -91,12 +149,12 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Puri Phakmongkol</a> 
+      <a href="../">Puri Phakmongkol</a> 
         <div class="sidebar-tools-main tools-wide">
     <a href="https://www.linkedin.com/in/dkapitan/" title="LinkedIn profile" class="quarto-navigation-tool px-1" aria-label="LinkedIn profile"><i class="bi bi-linkedin"></i></a>
     <a href="https://github.com/dkapitan" title="GitHub profile" class="quarto-navigation-tool px-1" aria-label="GitHub profile"><i class="bi bi-github"></i></a>
@@ -109,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./projects/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../projects/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Projects</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -118,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./projects/amphia.html" class="sidebar-item-text sidebar-link">
+  <a href="../projects/amphia.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Amphia Sensium</span></a>
   </div>
 </li>
@@ -126,7 +184,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./blog/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../blog/index.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Blog</span></a>
   </div>
 </li>
@@ -135,192 +193,80 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="nederlands">nederlands <span class="quarto-category-count">(1)</span></div><div class="category" data-category="responsible ai">responsible ai <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Blog posts</h1>
+</div>
 
 
 
+<div class="quarto-title-meta column-body">
 
-<!---
- ::: {.container-fluid} 
---->
-<div class="p-5 mb-4 bg-light rounded-3 bgimg">
-  <br><br><br><br>
-  <div class="container-fluid py-5">
-    <h1 class="display-5 fw-bold">Looking<br>to do more<br>with data and AI?</h1>
+    
+  
+    
   </div>
-</div>
-<p class="lead">
-   <small class="text-hero">XXXX XXX   |   XXXX XXX   |   XXXX XXX   |   XXXX XXX</small>
-</p>
-<style type="text/css">
-.lead {
-    font-family: "Sarabun";
-    text-align: center;
-}
-
-.bgimg {
-  background-image: url('images/hero.jpg');
-  Background-size: cover;
-}
-.hero-quote {
-  font-family: "Sarabun";
-  font-color: white;
-  color: white;
-}
-
-.fw-bold {
-  /* font-family: "Sarabun"; */
-  font-style: bold !important;
-  color: white !important;
-}
-</style>
-<!---
- ::: 
---->
-<p><br></p>
-<div class="grid">
-<div class="g-col-1">
-
-</div>
-<div class="g-col-10">
-<section id="xxxx-xxxx-xx-xxxxx" class="level4">
-<h4 class="anchored" data-anchor-id="xxxx-xxxx-xx-xxxxx">XXXX XXXX XX XXXXX</h4>
-<p>Lorem ipsum odor amet, consectetuer adipiscing elit. Hac tempor justo phasellus, posuere habitant euismod lacus class. Placerat consectetur pharetra est natoque lorem erat feugiat nam condimentum? Suspendisse leo amet ad; aenean curae duis curae. Vel class natoque velit leo congue in orci maximus rhoncus. Sodales arcu gravida dis at nibh ullamcorper. Rutrum nisl vivamus; porta eleifend parturient odio bibendum senectus.</p>
-<p>Duis aenean tempor montes dis diam cras. Nullam habitant venenatis integer non leo. Cras purus tempus gravida pharetra imperdiet hac lacus. Bibendum maximus et felis suscipit dictumst euismod condimentum blandit euismod. Lectus per malesuada euismod hac fames duis. Praesent ullamcorper in purus orci nullam ultrices. Quam aliquet venenatis aptent suscipit magnis risus per. Dignissim turpis tellus, porta blandit finibus condimentum in conubia habitant. Maecenas elit tempor vivamus mi in primis. Placerat lectus pulvinar malesuada pellentesque a risus massa dapibus.</p>
-</section>
-<section id="xxxxxx-xxxxxxxxxx-xxxx-xxxxxx-xxxxxx" class="level4">
-<h4 class="anchored" data-anchor-id="xxxxxx-xxxxxxxxxx-xxxx-xxxxxx-xxxxxx">XXXXXX XXXXXXXXXX XXXX XXXXXX XXXXXX</h4>
-<p>Metus dictumst odio odio nascetur feugiat, augue molestie molestie. Natoque eros justo nullam felis, per montes dolor. Nibh condimentum dictum morbi sodales metus vel class. Dignissim ligula neque praesent est posuere lobortis suspendisse. Nulla aliquam aliquam blandit; at odio duis eros tristique iaculis. Tellus sagittis quisque dolor ullamcorper rutrum elementum sodales. Nunc faucibus cubilia sociosqu aptent habitant semper dis accumsan. Est cras aliquam at turpis volutpat vel sed. Elementum lacinia fermentum velit porttitor primis.</p>
-<p>Lorem ipsum odor amet, consectetuer adipiscing elit. Hac tempor justo phasellus, posuere habitant euismod lacus class.</p>
-</section>
-</div>
-<div class="g-col-1">
-
-</div>
-</div>
-<p><br><br></p>
-<div id="light-grey-background">
-<div class="grid">
-<section id="xxxxx-xx-xx" class="level3 g-col-8">
-<h3 class="anchored" data-anchor-id="xxxxx-xx-xx">XXXXX-XX XX</h3>
-<p>Porttitor tempor ultricies elit maximus praesent per nibh efficitur. Praesent ad vitae scelerisque; commodo efficitur dui. Hac non dictum placerat elit, aliquam eros sollicitudin nascetur porttitor. Est inceptos maecenas dignissim tempor blandit risus eros. In euismod diam felis libero tellus maecenas. Quisque rutrum eros dui posuere vel dapibus.</p>
-<p>Dis vulputate rutrum duis posuere bibendum. Urna egestas ad primis mattis elementum porta fringilla. Ante porta faucibus bibendum posuere massa nunc. Mauris massa volutpat egestas eros malesuada purus tortor fermentum. Vulputate vitae dictumst curabitur eu proin aliquam laoreet quam. Pharetra scelerisque nascetur feugiat cras posuere aliquam donec.</p>
-<p><small class="text-muted">Data Architecture | MLOps (Machine Learning Operations) | Federated Learning | Privacy-Enhancing Technologies</small></p>
-</section>
-<div class="g-col-4">
-<p><img src="images/noun-timeline-inverse.png" class="img-fluid"></p>
-</div>
-</div>
-</div>
-<p><br></p>
-<div id="applied-ai">
-<div class="grid">
-<div class="g-col-4">
-<p><img src="images/noun-generative-ai.png" class="img-fluid"></p>
-</div>
-<section id="xxxxx-xxx-xxxxxx" class="level3 g-col-8">
-<h3 class="anchored" data-anchor-id="xxxxx-xxx-xxxxxx">XXXXX XXX XXXXXX</h3>
-<p>Porttitor tempor ultricies elit maximus praesent per nibh efficitur. Praesent ad vitae scelerisque; commodo efficitur dui. Hac non dictum placerat elit, aliquam eros sollicitudin nascetur porttitor. Est inceptos maecenas dignissim tempor blandit risus eros. In euismod diam felis libero tellus maecenas. Quisque rutrum eros dui posuere vel dapibus.</p>
-<p>Dis vulputate rutrum duis posuere bibendum. Urna egestas ad primis mattis elementum porta fringilla. Ante porta faucibus bibendum posuere massa nunc. Mauris massa volutpat egestas eros malesuada purus tortor fermentum. Vulputate vitae dictumst curabitur eu proin aliquam laoreet quam. Pharetra scelerisque nascetur feugiat cras posuere aliquam donec.</p>
-<p><small class="text-muted">Explainable AI | Generative AI &amp; Large Language Models | Physics-Informed Machine Learning</small></p>
-</section>
-</div>
-</div>
-<p><br></p>
-<div id="light-grey-background">
-<div class="grid">
-<section id="xxxxxx-xx-xxxxx-xxx" class="level3 g-col-8">
-<h3 class="anchored" data-anchor-id="xxxxxx-xx-xxxxx-xxx">XXXXXX XX XXXXX XXX</h3>
-<p>Porttitor tempor ultricies elit maximus praesent per nibh efficitur. Praesent ad vitae scelerisque; commodo efficitur dui. Hac non dictum placerat elit, aliquam eros sollicitudin nascetur porttitor. Est inceptos maecenas dignissim tempor blandit risus eros. In euismod diam felis libero tellus maecenas. Quisque rutrum eros dui posuere vel dapibus.</p>
-<p>Dis vulputate rutrum duis posuere bibendum. Urna egestas ad primis mattis elementum porta fringilla. Ante porta faucibus bibendum posuere massa nunc. Mauris massa volutpat egestas eros malesuada purus tortor fermentum. Vulputate vitae dictumst curabitur eu proin aliquam laoreet quam. Pharetra scelerisque nascetur feugiat cras posuere aliquam donec.</p>
-<p><small class="text-muted">One-the-job coaching for individuals and teams | Challenge-based learning | Technical deep-dives for experts</small></p>
-</section>
-<div class="g-col-4">
-<p><img src="images/noun-mentor-inverse.png" class="img-fluid"></p>
-</div>
-</div>
-</div>
-<p><br></p>
-<div class="container">
-<div class="grid">
-<div class="g-col-4">
-<p><img src="images/noun-lecture.png" class="img-fluid"></p>
-</div>
-<section id="xxxxxxxxx-xxx-xxxxxx-xxx" class="level3 g-col-8">
-<h3 class="anchored" data-anchor-id="xxxxxxxxx-xxx-xxxxxx-xxx">XXXXXXXXX XXX XXXXXX XXX</h3>
-<p>Libero vulputate sollicitudin suspendisse urna habitant praesent quisque aptent amet. Est erat convallis vehicula; rutrum libero consequat quam sollicitudin. Praesent tincidunt ut proin malesuada enim habitant cubilia. Eros natoque dapibus imperdiet varius leo? Viverra viverra at bibendum accumsan elit imperdiet sodales. Semper tortor facilisis duis; nunc pretium aenean. Vitae ultrices nisl aliquet finibus fames tempor eros venenatis nam. Mi facilisi nam metus non penatibus volutpat potenti nibh. Enim euismod eros consequat ipsum; ex justo. Ligula lorem ridiculus vivamus porta dolor hendrerit.</p>
-<p><small class="text-muted">Keynote speeches | Masterclasses for management and executives | Inspirational lectures</small></p>
-</section>
-</div>
-</div>
-<p><br></p>
-<div id="logo-board">
-<p><a href="./projects/index.html"><img src="./images/logo-board.png" class="img-fluid"></a></p>
-</div>
-<p><br></p>
-<style>
-#light-grey-background {
-  padding-top: 35px;
-  padding-bottom: 20px;
-  padding-left: 35px;
-  background-color: #000000;
-  color: #ffffff;
-  border-radius: .3rem !important;
-}
-#logo-board {
-  padding-top: 20px;
-  border-radius: .3rem !important;
-  background-color: #ffffff;
-}
-</style>
-<div class="grid">
-<div class="g-col-2">
-
-</div>
-<div class="g-col-6">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/vka-profile.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<section id="as-a-data-architect-and-ai-expert-i-can-help-you-create-sustainable-change-with-digital-technologies." class="level3">
-<h3 class="anchored" data-anchor-id="as-a-data-architect-and-ai-expert-i-can-help-you-create-sustainable-change-with-digital-technologies.">“As a data architect and AI expert I can help you create sustainable change with digital technologies.”</h3>
-</section>
-</div>
-<div class="g-col-2">
-
-</div>
-</div>
-<p><br><br><br></p>
-<section id="about-me" class="level1">
-<h1>About me</h1>
-<p>Cursus integer nascetur lobortis dignissim eget sem. Vivamus feugiat ultricies purus interdum augue duis auctor. Senectus pellentesque dignissim at cras sem suspendisse montes convallis. Gravida tortor a fusce porttitor eros ullamcorper vel. Penatibus ullamcorper ultrices; placerat adipiscing natoque mauris lobortis nostra. Tempor elementum fusce enim, hendrerit facilisis congue. Vel bibendum mauris libero faucibus iaculis fermentum lacinia phasellus. Urna nec donec tortor lacus pharetra taciti interdum eleifend.</p>
-<p>Blandit libero libero mollis consectetur euismod, curabitur arcu egestas facilisi. Porttitor quam tincidunt posuere felis dictum turpis ex penatibus. Sodales in lacinia aliquam vel interdum mauris sem. Fermentum phasellus tempus mi accumsan blandit facilisis. Tristique habitant iaculis conubia fames; mauris facilisi orci ex. At dictum odio suspendisse potenti pharetra duis in aenean. Cursus quisque potenti tortor; congue congue vel magnis ligula. Eros nec sem sapien quam quisque lectus ridiculus nullam? Aenean elementum porta natoque convallis blandit porttitor dolor iaculis scelerisque.</p>
-<section id="roles" class="level3">
-<h3 class="anchored" data-anchor-id="roles">Roles</h3>
-<p>Blandit libero libero mollis consectetur euismod, curabitur arcu egestas facilisi. Porttitor quam tincidunt posuere felis dictum turpis ex penatibus. Sodales in lacinia aliquam vel interdum mauris sem. Fermentum phasellus tempus mi accumsan blandit facilisis. Tristique habitant iaculis conubia fames; mauris facilisi orci ex. At dictum odio suspendisse potenti pharetra duis in aenean. Cursus quisque potenti tortor; congue congue vel magnis ligula. Eros nec sem sapien quam quisque lectus ridiculus nullam? Aenean elementum porta natoque convallis blandit porttitor dolor iaculis scelerisque.</p>
-<p>Libero vulputate sollicitudin suspendisse urna habitant praesent quisque aptent amet. Est erat convallis vehicula; rutrum libero consequat quam sollicitudin. Praesent tincidunt ut proin malesuada enim habitant cubilia. Eros natoque dapibus imperdiet varius leo? Viverra viverra at bibendum accumsan elit imperdiet sodales. Semper tortor facilisis duis; nunc pretium aenean. Vitae ultrices nisl aliquet finibus fames tempor eros venenatis nam. Mi facilisi nam metus non penatibus volutpat potenti nibh. Enim euismod eros consequat ipsum; ex justo. Ligula lorem ridiculus vivamus porta dolor hendrerit.</p>
-</section>
-<section id="areas-of-expertise" class="level3">
-<h3 class="anchored" data-anchor-id="areas-of-expertise">Areas of expertise</h3>
-<p>Dictum inceptos neque lacus, nascetur fermentum odio. Orci lacinia rhoncus dolor ante odio fames duis morbi tempus. Odio aenean maecenas eget viverra consequat sit. Inceptos justo morbi lorem sapien diam hendrerit. Curae mauris a; parturient hac in risus bibendum rutrum. Quisque taciti faucibus tincidunt nullam vitae commodo nunc nostra. Tortor quisque diam ultrices duis aliquet nullam nisl. Morbi nascetur suspendisse accumsan, vitae leo lobortis tincidunt. Quis orci pulvinar sed nisi pellentesque faucibus habitasse a elit. Odio dis praesent cubilia interdum; interdum sem elit.</p>
-<p>Vel bibendum bibendum turpis, torquent blandit ex interdum et vestibulum. Cras tortor aptent eleifend pellentesque natoque? Semper fringilla tortor etiam litora lacus mauris. Vel lacinia aliquet montes nullam netus ligula rutrum vestibulum. Nec ad est litora integer lectus iaculis elit eleifend. Donec pellentesque arcu netus natoque eget sagittis ut. Interdum ac suscipit vitae nullam nunc scelerisque varius convallis. Urna pellentesque tristique facilisi per aptent sodales eros hendrerit. Morbi porttitor mi at nascetur dictum maecenas sagittis.</p>
-</section>
-<section id="industry-focus" class="level3">
-<h3 class="anchored" data-anchor-id="industry-focus">Industry focus</h3>
-<p>Vel bibendum bibendum turpis, torquent blandit ex interdum et vestibulum.</p>
-</section>
-<section id="contact-details" class="level3">
-<h3 class="anchored" data-anchor-id="contact-details">Contact details</h3>
-<p><strong>email:</strong> <a href="mailto:me@puri.in.th">me@puri.in.th</a> <br></p>
+  
 
 
-</section>
-</section>
+</header>
 
-</main> <!-- /main -->
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="nederlands,responsible ai" data-listing-date-sort="1526662800000" data-listing-file-modified-sort="1726486034956" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="226">
+<div class="thumbnail">
+<p><a href="../blog/nrc-houd-toezicht-algoritmes.html" class="no-external"></a></p><a href="../blog/nrc-houd-toezicht-algoritmes.html" class="no-external">
+<p><img loading="lazy" src="../images/nrc-open-source.jpg" class="thumbnail-image"></p>
+</a><p><a href="../blog/nrc-houd-toezicht-algoritmes.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/nrc-houd-toezicht-algoritmes.html" class="no-external">Houd toezicht op de glazen algoritme-bol</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../blog/nrc-houd-toezicht-algoritmes.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('nederlands'); return false;">
+nederlands
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('responsible ai'); return false;">
+responsible ai
+</div>
+</div>
+<div class="listing-description">
+<a href="../blog/nrc-houd-toezicht-algoritmes.html" class="no-external">Ingezonden brief aan NRC naar aanleiding van discussie over gebruik van algoritmes voor opsporing van fraude. </a>
+</div>
+</div>
+<div class="metadata">
+<a href="../blog/nrc-houd-toezicht-algoritmes.html" class="no-external">
+<div class="listing-date">
+May 2018
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -745,7 +691,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><br> Copyright © 2024 Puri Phakmongkol<br> This website was created with <a href="https://quarto.org"><img src="./images/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
+<p><br> Copyright © 2024 Puri Phakmongkol<br> This website was created with <a href="https://quarto.org"><img src="../images/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
