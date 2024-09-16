@@ -2,18 +2,30 @@ project:
   type: website
 
 website:
-  title: "suakow.github.io"
+  title: "Puri Phakmongkol"
+  site-url: "https://www.puri.in.th"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
 
+  search:
+    location: sidebar
+    type: overlay
+
 format:
   html:
-    theme: cosmo
+    page-layout: full
+    date-format: "MMM YYYY"
+    theme:
+      light:
+        - flatly
+        - mozilla.scss
     css: styles.css
-    toc: true
+    toc: false
 
+execute: 
+  freeze: auto
 
 

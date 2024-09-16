@@ -1,5 +1,9 @@
 ---
-title: "suakow.github.io"
+sidebar: true
+toc: false
+format:
+  html:
+    page-layout: article
 ---
 
 This is a Quarto website.
